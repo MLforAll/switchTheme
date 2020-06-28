@@ -57,7 +57,7 @@
 /* Begin PBXFileReference section */
 		B80B7E72245F4EC200FC4A4C /* switchTheme */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = switchTheme; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80B7E75245F4EC200FC4A4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B8D5CF8F24A91C6000195ADE /* MacTheme.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MacTheme.xcodeproj; path = ../libmactheme/MacTheme.xcodeproj; sourceTree = "<group>"; };
+		B8D5CF8F24A91C6000195ADE /* MacTheme.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MacTheme.xcodeproj; path = libmactheme/MacTheme.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
