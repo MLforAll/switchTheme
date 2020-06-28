@@ -1,0 +1,3 @@
+[submodule "libmactheme"]
+	path = libmactheme
+	url = git@github.com:MLforAll/libmactheme.git
