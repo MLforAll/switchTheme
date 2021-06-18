@@ -35,7 +35,7 @@ arc_main(int ac, const char **av)
         (void) fprintf(stderr, "%s: Couldn't get os_theme_t value\n", *av);
         return EXIT_FAILURE;
     }
-    if (NSProcessInfo.processInfo.operatingSystemVersion.minorVersion < 15 && t == kThemeAuto)
+    if ([NSProcessInfo.processInfo.operatingSystemVersionString compare:@"10.15"] == NSOrderedAscending && t == kThemeAuto)
     {
         (void) fprintf(stderr, "%s: macOS Mojave and earlier do not support automatic theme\n", *av);
         return EXIT_FAILURE;
